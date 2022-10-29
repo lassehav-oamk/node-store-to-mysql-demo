@@ -38,7 +38,7 @@ const knex = require("knex")({
 
         // Here is the beef of the function -> data from the json file
         // is inserted into the database
-        const insertedRows = await knex("co2-data").insert({
+        const insertedRows = await knex("demo-db").insert({
           time: data[i].TimeYrBP,
           value: data[i].Co2ppm,
         });
