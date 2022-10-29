@@ -1,7 +1,7 @@
 # node-store-to-mysql-demo
 This project demonstrates how one can parse a .json file and insert the contents into a mysql database.
 
-The project uses [Knex](https://knexjs.org/) for database operations. Test data is in the Co2-demo.json file. Local MySQL server installation is required. 
+The project uses [Knex](https://knexjs.org/) for database operations. Test data is in the `Co2-demo.json` file. Local MySQL server installation is required. 
 
 ## Usage
 
