@@ -7,6 +7,10 @@ The project uses [Knex](https://knexjs.org/) for database operations. Test data 
 
 Clone the repository and run `npm install` command for the dependencies. 
 
-Import the demo-db.sql to your SQL server. Then you can run the application for example `node index.js myuser mypassword` where `myuser` is an existing username in your SQL database
+Create database with name `test-db`.
+
+Import the demo-db.sql to your SQL server.
+
+Run the application for example `node index.js myuser mypassword` where `myuser` is an existing username in your SQL database
 and `mypassword` is the password of the user. After completing the execution, you can check the contents of your database that there is a co2-data table with the contents from the Co2-demo.json file. 
 
