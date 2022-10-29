@@ -3,7 +3,7 @@ This project demonstrates how one can parse a .json file and insert the contents
 
 The project uses [Knex](https://knexjs.org/) for database operations. Test data is in the Co2-demo.json file. Local SQL server installation is required. 
 
-##Usage
+## Usage
 
 Clone the repository and run `npm install` command for the dependencies. 
 
